@@ -106,7 +106,7 @@ input5.addEventListener('keyup', (e) => {
 
 input6.addEventListener('keyup', (e) => {
     if (input6.value === 'are' || input6.value === 'Are') {
-        input6.value = 'are'
+        input6.value = 'Are'
         correctSound.play()
         input6.style.color = 'limegreen'
         check5.style.visibility = 'visible'
